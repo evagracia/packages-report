@@ -1,5 +1,11 @@
+#' ---
+#' date: "`r format(Sys, Date())`"
+#' output: github_document
+#' ---
+
 install.packages("tidyverse")
 library(tidyverse)
+.libPaths()
 
 installed.packages() %>%
   as_tibble()
