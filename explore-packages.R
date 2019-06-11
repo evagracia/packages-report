@@ -1,7 +1,5 @@
-
 install.packages("tidyverse")
 library(tidyverse)
-.libPaths()
 
 installed.packages() %>%
   as_tibble()
